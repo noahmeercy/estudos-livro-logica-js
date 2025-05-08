@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="./img/livrojs.png" />
+    <link rel="stylesheet" href="./css/ex4_2.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <img src="./img/ex4_2.jpg" alt="Balança de peso" />
+    <h1>Programa Cálculo do Peso Ideal</h1>
+    <form>
+        <p> Nome:
+            <input type="text" id="inNome" required>
+        </p>
+        <p> Sexo:
+            <input type="radio" id="inSexoM" name="sexo" value="M" required> Masculino
+            <input type="radio" id="inSexoF" name="sexo" value="F"> Feminino
+        </p>
+        <p> Altura:
+            <input type="number" min="" step="any" id="inAltura" required>
+        </p>
+        <input type="submit" value="Calcular Peso Ideal">
+        <input type="reset" value="Limpar"> 
+    </form>
+    <h3 id="resp"></h3>
+    
+    <script src="./js/ex4_2.js"></script>
+  </body>
+</html>
