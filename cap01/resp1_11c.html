@@ -1,0 +1,12 @@
+<meta charset="utf-8" />
+<script>
+
+
+//Elaborar um programa para uma loja, o qual leia o preço de um produto e informe as opções de pagamento da loja. Calcule e informe o valor para pagamento à vista com 10% de desconto e o valor em 3x.
+
+  const preco = Number(prompt("Digite o preço do produto")); // lê um dado de entrada (ENTRADA)
+  const aVista = preco - (preco * 0.10); // calcula o preço à vista (PROCESSAMENTO)
+  const aPrazo = preco / 3; // calcula o preço a prazo (PROCESSAMENTO)
+  alert(`O preço á vista é R$ ${aVista.toFixed(2)}\n O Preço a prazo é: 3 Parcelas de R$ ${aPrazo.toFixed(2)}`); //exibe o resultado (SAÍDA)
+  // toFixed(2) formata o número para duas casas decimais, garantindo que o valor seja exibido corretamente como moeda.
+</script>
