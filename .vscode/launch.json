@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Iniciar o Chrome em relação a localhost",
-            "url": "http://127.0.0.1:5500/cap06/ex6_1.html",
+            "url": "http://127.0.0.1:5500/cap06/ex6_2.html",
             "webRoot": "${workspaceFolder}"
         }
     ]
